@@ -44,11 +44,6 @@ class CounterApp extends React.Component {
             onIncrement={(value) => this.handleIncrement(2, value)}
             onDecrement={(value) => this.handleDecrement(2, value)}
           />
-          <Counter
-            value={counters[3]}
-            onIncrement={(value) => this.handleIncrement(3, value)}
-            onDecrement={(value) => this.handleDecrement(3, value)}
-          />
           <Total counters={counters} />
         </div>
       );
